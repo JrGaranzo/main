@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style/nav.css">
+    <link rel="stylesheet" href="style/general.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+  <!--Nav-->
+  <nav>
+    <ul class="sidebar">
+      <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 -960 960 960" width="18"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+      <li><a href="Index.html">Home</a></li>
+      <li><a href="Resume.html">Portfolio</a></li>
+      <li><a href="service.html">Service</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <ul>
+      <li class="hideOnMobile"><a href="Index.html">Home</a></li>
+      <li class="hideOnMobile"><a href="Resume.html">Portfolio</a></li>
+      <li class="hideOnMobile"><a href="service.html">Service</a></li>
+      <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
+      <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 -960 960 960" width="18"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+    </ul>
+  </nav>
+
+  <!--Main Section-->
+    <main>
+      <div class="container">
+        <img src="img/Kenneth.gif" alt="">
+          <div class="main-text">
+            <h1>Kenneth V. Garanzo Jr.</h1>
+              <p>Bachelor of Science Information Technology Student</p>
+              <button onclick="window.location.href='Resume.html'">Portfolio</button>
+          </div>
+      </div>
+    </main>
+    
+  <script src="js/nav.js"></script>
+</body>
+</html>

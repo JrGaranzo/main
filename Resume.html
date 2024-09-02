@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="style/nav.css">
+    <link rel="stylesheet" href="style/general.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  
+ <!--Nav-->
+  <nav>
+    <ul class="sidebar">
+      <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 -960 960 960" width="18"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="Resume.html">Portfolio</a></li>
+      <li><a href="service.html">Service</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <ul>
+      <li class="hideOnMobile"><a href="index.html">Home</a></li>
+      <li class="hideOnMobile"><a href="Resume.html">Portfolio</a></li>
+      <li class="hideOnMobile"><a href="service.html">Service</a></li>
+      <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
+      <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 -960 960 960" width="18"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+    </ul>
+  </nav>
+
+ <!--Resume Section-->
+ <div class="Resume-container">
+  <div class="Right-side-y">
+    <div class="header-container">
+      <h2>What I'm Doing</h2>
+      <p>Aspiring Bachelor of Science Information Technology student honing Knowledge and Skills</p>
+    </div>
+    <div class="Right-container">
+      <h3>Web Design</h3>
+      <img src="img/computer-monitor-and-cellphone.png">
+      <p>Modern and Quality Web Design.</p>
+    </div>
+    <div class="Right-container">
+      <h3>Web Development</h3>
+      <img src="img/coding.png">
+      <p>Creating Functioning Website.</p>
+    </div>
+    <div class="Right-container">
+      <h3>Mobile Development</h3>
+      <img src="img/app-development.png">
+      <p>Modile Developer.</p>
+    </div>
+    <div class="Right-container">
+      <h3>Photography</h3>
+      <img src="img/camera.png">
+      <p>Simple Photograph.</p>
+    </div>
+  </div>
+  <div class = "Right-side">
+  <h1>Kenneth V. Garanzo Jr.</h1>
+  <p id="header-res">Bachelor of Science Information Technology.</p>
+  <h3>Details</h3>
+  <div class="details-container">
+   <ul>
+     <li><i class="fa-solid fa-calendar"></i><p>November 26, 2000</p></li>
+     <li><i class='fas fa-map-marker-alt'></i><p>Phase I Siruna, Mambugan, Antipolo City.</p></li>
+     <li><i class="fa-solid fa-flag"></i><p>Filipino</p></li>
+     <li><i class="fa-solid fa-language"></i><p>English, Filipino</p></li>
+   </ul>
+  </div>
+  </div>
+  <div class = "Left-side">
+  <img src="img/Removed.png">
+  </div>
+ </div>
+
+
+  <script src="js/nav.js"></script>
+</body>
+</html>
